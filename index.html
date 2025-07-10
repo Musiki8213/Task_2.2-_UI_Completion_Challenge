@@ -20,7 +20,6 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1000;
   background-color: black;
   overflow-x: hidden;
   transition: 0.3s;
@@ -34,7 +33,6 @@
 }
 
 #closeBtn {
-  position: absolute;
   top: 15px;
   right: 25px;
   font-size: 30px;
@@ -68,7 +66,6 @@
 #topPart-flex{
    display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px 50px;
 }
 ul li{
@@ -139,7 +136,7 @@ body{
 float: right;
 }
 #bigImage1{
-  width: 50%;
+  width: 80%;
 }
 #third-part{
   display: flex;
@@ -311,6 +308,7 @@ body{
 
 #bigImage1{
   width: 100%;
+  padding-bottom: 12px;
 }
 #third-part{
   display: flex;
@@ -326,6 +324,7 @@ body{
   font-size: x-large;
   color: hsl(208, 49%, 24%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
 }
 footer{
   background-color: hsl(240, 10%, 16%);
@@ -357,13 +356,13 @@ padding: 10px 24px;
 }
 #paragraph1Div{
   display: flex;
-  gap:100px
+  gap:10px
 }
 #third-part{
   background-color: hsl(237, 23%, 32%);
   border-bottom-left-radius: 100px;
-border-top-right-radius: 100px;
-background-size: 20%;
+  border-top-right-radius: 100px;
+  background-size: 20%;
 }
 #img2{
 width: 70%;
@@ -371,6 +370,8 @@ width: 70%;
 }
 #stateDiv{
   color: white;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #fouth-part{
 display: flex;
@@ -378,163 +379,12 @@ display: flex;
 #img3{
   width: 70%;
 }
+#nextToPic1Div{
+  display: flex;
+  flex-direction: column;
+  gap:0;
+}
       }
-@media(max-width:768px){
-      #sideBar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1000;
-  background-color: black;
-  overflow-x: hidden;
-  transition: 0.3s;
-  padding-top: 60px;
-  color: white;
-}
-
-#openBtn {
-  padding: 1px;
-}
-
-#closeBtn {
-  position: absolute;
-  top: 15px;
-  right: 25px;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
-
-#btn button {
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-}
-#side2{
-
-  background-color: hsl(240, 2%, 79%);
-  text-align: center;
-}
-#side1{
-  text-align: center;
-}
-#side3{
-  text-align: center;
-}
-#btn{
-  text-align: center;
-}
-#blorgImg{
-  width: 30%;
-  padding: 10px ;
-}
-#topPart-flex{
-   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10px;
-}
-ul li{
-  list-style: none;
-  display: inline;
-  padding: 5px;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
-}
-body{
-
-  background-color: hsl(0, 0%, 100%);
-  padding: 0;
-  margin: 0;
-}
-#main-top{
-  
-  width: 650px;
-  height: 300px;
-  border-bottom-left-radius: 50px;
- 
-}
-#modernH2{
-  text-align: center;
-  color: hsl(0, 0%, 100%);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 100;
-  
-}
-#grow{
-  text-align: center;
-  color: hsl(0, 0%, 100%);
-  font-size: 13px;
-}
-#flex-button{
-  display: flex;
-  padding-left: 250px;
-  gap: 10px;
-}
-#freeBtn{
-  border-radius: 14px;
-  padding: 10px;
-  background-color: white;
-  border: 1px ;
-   width: 100px;
-   
-}
-#moreBtn{
-  border-radius: 19px;
-  padding: 10px;
-  border: 1px solid white;
-  width: 100px;
-  color:white;
-  background-color: hsl(353, 100%, 62%);
-}
-#designed{
-  text-align: center;
-  color: hsl(208, 49%, 24%);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#bigImage1{
-  width: 13%;
-}
-#third-part{
-  display: flex;
-}
-#introduction{
-
-  color: hsl(208, 49%, 24%);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#robust{
-
-  color: hsl(208, 49%, 24%);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-footer{
-  background-color: hsl(240, 10%, 16%);
-  color: hsl(240, 2%, 79%);
-}
-#btnTop{
-padding: 10px 24px;
-  border: 2px solid white;
-  border-radius: 30px;
-  color: hsl(353, 100%, 62%);
-  background-color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
-  margin-left: 20px;
-}
-#topAction{
-  display: flex;
-  align-items: center; 
-  gap: 1px;
-}
-#loginTop{
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
-}
-}
     </style>
     <!-----------------CSS------------>
   </head>
@@ -632,6 +482,7 @@ padding: 10px 24px;
   <h2>Designed for the future</h2>
 </div>
 <div id="paragraph1Div">
+  <div id="nextToPic1Div">
 <div id="introduction">
   <h3>Introducing an extensible editor</h3>
 <p>
@@ -641,10 +492,6 @@ padding: 10px 24px;
     Markdown. Extensibility with plugins and themes provide<br> easy ways to add
     functionality or change the looks of a blog.</p>
 </div>
-<div id="bigImageDiv1">
-  <img id="bigImage1" src="images/illustration-editor-desktop.svg" alt="circle">
-</div>
-</div>
 
 <div id="robust">
   <h3>Robust content management</h3>
@@ -653,7 +500,14 @@ padding: 10px 24px;
     Increase the usability of your blog by adding customized<br> categories,
     sections, format, or flow. With this functionality, you’re in <br>full control.</p>
 </div>
+</div>
+<div id="bigImageDiv1">
+  <img id="bigImage1" src="images/illustration-editor-desktop.svg" alt="circle">
+</div>
+</div>
 
+<br>
+<br>
 
 <!---------------SECOND PART----------------------->
 

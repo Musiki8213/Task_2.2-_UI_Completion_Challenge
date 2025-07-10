@@ -16,7 +16,7 @@
 
     <!-----------------CSS------------>
     <style>
-      #sideBar {
+         #sideBar {
   height: 100%;
   width: 0;
   position: fixed;
@@ -81,7 +81,9 @@ ul li{
 }
 body{
 
-  background-color: hsl(0, 0%, 100%)
+  background-color: hsl(0, 0%, 100%);
+  padding: 0;
+  margin: 0;
 }
 #main-top{
   
@@ -118,7 +120,7 @@ body{
   background-color: white;
   border: 1px ;
    width: 100px;
-   color
+   
 }
 #moreBtn{
   border-radius: 19px;
@@ -176,6 +178,363 @@ padding: 10px 24px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
 }
+
+#top-links{
+  padding: 10px;
+}
+
+      @media(min-width:1440px){
+
+      #sideBar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  color: white;
+}
+
+#openBtn {
+  padding: 40px;
+  
+}
+
+#closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+#btn button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+#side2{
+
+  background-color: hsl(240, 2%, 79%);
+  text-align: center;
+}
+#side1{
+  text-align: center;
+}
+#side3{
+  text-align: center;
+}
+#btn{
+  text-align: center;
+}
+#blorgImg{
+  width: 30%;
+  padding: 10px ;
+}
+#topPart-flex{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+body{
+
+  background-color: hsl(0, 0%, 100%);
+  padding: 0;
+  margin: 0;
+}
+#main-top{
+  
+  width: 1889px;
+  height: 500px;
+  background-color: hsl(356, 100%, 66%);
+  background-image: url('images/bg-pattern-intro-desktop.svg'); 
+  background-size: 150%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 50px;
+ 
+}
+#modernH2{
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 200px;
+  font-size: 30px;
+  
+}
+#grow{
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+  padding-right: 300px;
+}
+#flex-button{
+  display: flex;
+  padding-left: 700px;
+  gap: 10px;
+}
+#freeBtn{
+  border-radius: 19px;
+  padding: 10px;
+  background-color: white;
+  border: 1px ;
+   width: 100px;
+   color: hsl(356, 100%, 66%);;
+   
+}
+#moreBtn{
+  border-radius: 19px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 100px;
+  color:white;
+  background-color: hsl(353, 100%, 62%);
+}
+#designed{
+  text-align: center;
+  color: hsl(208, 49%, 24%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+}
+
+#bigImage1{
+  width: 100%;
+}
+#third-part{
+  display: flex;
+}
+#introduction{
+
+  color: hsl(208, 49%, 24%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px;
+  font-size: x-large;
+}
+#robust{
+  font-size: x-large;
+  color: hsl(208, 49%, 24%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+  background-color: hsl(240, 10%, 16%);
+  color: hsl(240, 2%, 79%);
+}
+#btnTop{
+padding: 10px 24px;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: hsl(353, 100%, 62%);
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-left: 20px;
+}
+#topAction{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+#loginTop{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+#top-links{
+  padding-right: 500px;
+}
+#paragraph1Div{
+  display: flex;
+  gap:100px
+}
+#third-part{
+  background-color: hsl(237, 23%, 32%);
+  border-bottom-left-radius: 100px;
+border-top-right-radius: 100px;
+background-size: 20%;
+}
+#img2{
+width: 70%;
+
+}
+#stateDiv{
+  color: white;
+}
+#fouth-part{
+display: flex;
+}
+#img3{
+  width: 70%;
+}
+      }
+@media(max-width:768px){
+      #sideBar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  color: white;
+}
+
+#openBtn {
+  padding: 1px;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+#btn button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+#side2{
+
+  background-color: hsl(240, 2%, 79%);
+  text-align: center;
+}
+#side1{
+  text-align: center;
+}
+#side3{
+  text-align: center;
+}
+#btn{
+  text-align: center;
+}
+#blorgImg{
+  width: 30%;
+  padding: 10px ;
+}
+#topPart-flex{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+body{
+
+  background-color: hsl(0, 0%, 100%);
+  padding: 0;
+  margin: 0;
+}
+#main-top{
+  
+  width: 650px;
+  height: 300px;
+  border-bottom-left-radius: 50px;
+ 
+}
+#modernH2{
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  
+}
+#grow{
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+}
+#flex-button{
+  display: flex;
+  padding-left: 250px;
+  gap: 10px;
+}
+#freeBtn{
+  border-radius: 14px;
+  padding: 10px;
+  background-color: white;
+  border: 1px ;
+   width: 100px;
+   
+}
+#moreBtn{
+  border-radius: 19px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 100px;
+  color:white;
+  background-color: hsl(353, 100%, 62%);
+}
+#designed{
+  text-align: center;
+  color: hsl(208, 49%, 24%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bigImage1{
+  width: 13%;
+}
+#third-part{
+  display: flex;
+}
+#introduction{
+
+  color: hsl(208, 49%, 24%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#robust{
+
+  color: hsl(208, 49%, 24%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+  background-color: hsl(240, 10%, 16%);
+  color: hsl(240, 2%, 79%);
+}
+#btnTop{
+padding: 10px 24px;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: hsl(353, 100%, 62%);
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-left: 20px;
+}
+#topAction{
+  display: flex;
+  align-items: center; 
+  gap: 1px;
+}
+#loginTop{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+}
     </style>
     <!-----------------CSS------------>
   </head>
@@ -225,6 +584,8 @@ padding: 10px 24px;
  <a href="javascript:void(0)" onclick="openSlider()">
     <img id="openIcon" src="images/logo.svg" alt="Open Menu">
   </a>  </div>
+
+  <div id="top-links">
   <ul>
 <li>Product</li>
 <img id="productImg" src="images/icon-arrow-light.svg" alt="arrow">
@@ -233,6 +594,8 @@ padding: 10px 24px;
 <li>Connect</li>
 <img id="connectImg" src="images/icon-arrow-light.svg" alt="arrow">
 </ul>
+</div>
+
 <div id="topAction">
 <p id="loginTop">Login</p>
 <button id="btnTop">Sign Up</button>
@@ -246,7 +609,8 @@ padding: 10px 24px;
  <div id="grow">
   <p>Grow your audience and build your online brand</p>
  </div>
-
+<br>
+<br>
  <div id="flex-button">
 <div id="free">
  <button id="freeBtn">Start for Free</button>
@@ -267,7 +631,7 @@ padding: 10px 24px;
 <div id="designed">
   <h2>Designed for the future</h2>
 </div>
-
+<div id="paragraph1Div">
 <div id="introduction">
   <h3>Introducing an extensible editor</h3>
 <p>
@@ -276,6 +640,10 @@ padding: 10px 24px;
     blogs and allows easy manipulation of embeds such as images,<br> videos, and
     Markdown. Extensibility with plugins and themes provide<br> easy ways to add
     functionality or change the looks of a blog.</p>
+</div>
+<div id="bigImageDiv1">
+  <img id="bigImage1" src="images/illustration-editor-desktop.svg" alt="circle">
+</div>
 </div>
 
 <div id="robust">
@@ -286,9 +654,7 @@ padding: 10px 24px;
     sections, format, or flow. With this functionality, you’re in <br>full control.</p>
 </div>
 
-<div id="bigImageDiv1">
-  <img id="bigImage1" src="images/illustration-editor-desktop.svg" alt="circle">
-</div>
+
 <!---------------SECOND PART----------------------->
 
 
@@ -358,11 +724,7 @@ padding: 10px 24px;
 </html>
 
 <footer>
-  <p class="attribution">
-    Bootcamp 2023 by
-    <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>.
-    Developed by <a href="#">Musiki</a>.
- </p>
+ 
     <div id="footerImgDiv">
     <img id="imgFooter" src="images/logo.svg" alt="footer">
     </div>
@@ -418,4 +780,3 @@ function closeSlider(){
 </body>
 </html>
 
-<!-- Source Frontend Mentor: https://www.frontendmentor.io -->
